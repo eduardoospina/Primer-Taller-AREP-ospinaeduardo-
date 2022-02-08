@@ -8,4 +8,7 @@ celsiusafahrenheit.addEventListener('click', function(){
         $("fahrenheit").text("Fahrenheit : " + obj);
         console.log(obj);
         })
+        .catch(function (error) {
+                    console.log(error);
+        })
 });
