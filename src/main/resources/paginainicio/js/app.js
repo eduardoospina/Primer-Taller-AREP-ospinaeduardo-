@@ -4,11 +4,8 @@ celsiusafahrenheit.addEventListener('click', function(){
     console.log(celda);
     var linkapi1 = 'https://calc-api-be.herokuapp.com/Calculator'
     fetch(`${linkapi1}/celsius/${celda}`).then(res => {
-        var obj = JSON.parse(res.data);
-        $("fahrenheit").text("Fahrenheit : " + obj);
-        console.log(obj);
-        })
-        .catch(function (error) {
-                    console.log(error);
-        })
+        return res.json();
+        }).then( rta =>  {
+        $("fahrenheit").text("Fahrenheit : " + rta);
+        console.log(rta)});
 });
