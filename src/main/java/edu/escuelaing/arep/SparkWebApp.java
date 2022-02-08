@@ -8,7 +8,7 @@ public class SparkWebApp {
     public static void main(String[] args) {
 
         port(getPort());
-        staticFiles.location("Front/Paginainicio");
+        staticFiles.location("/Paginainicio");
 
         get("/", (req, res) -> {
             res.redirect("/Index.html");
