@@ -9,8 +9,9 @@ public class SparkWebApp {
 
         port(getPort());
         staticFiles.location("/Front/Paginainicio");
+
         get("/", (req, res) -> {
-            res.redirect("/index.html");
+            res.redirect("/Index.html");
             return null;
     });
 
