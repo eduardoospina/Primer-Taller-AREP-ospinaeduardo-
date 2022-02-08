@@ -8,14 +8,13 @@ public class SparkWebApp {
 
 
     public static void main(String[] args) {
-        String vacio= "";
 
         port(getPort());
-        staticFiles.location("Front/Paginainicio");
+        staticFiles.location("/Front/Paginainicio");
 
         get("/", (req, res) -> {
             res.redirect("/index.html");
-            return vacio;
+            return null;
     });
 
         path("/Calculator", ()->{
