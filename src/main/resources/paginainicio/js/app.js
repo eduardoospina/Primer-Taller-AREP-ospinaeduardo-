@@ -6,6 +6,8 @@ celsiusafahrenheit.addEventListener('click', function(){
     fetch(`${linkapi1}/celsius/${celda}`).then(res => {
         return res.json();
         }).then( rta =>  {
-            $("fahrenheit").text("Fahrenheit : " + rta.fahrenheit);
-            console.log(rta.fahrenheit)});
+            var obj = JSON.parse(rta.data);
+            $("#fahrenheit").text("Fahrenheit : " + obj);
+            console.log(obj);
+            })
 });
