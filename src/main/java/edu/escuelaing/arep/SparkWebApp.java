@@ -5,14 +5,17 @@ import com.google.gson.*;
 
 public class SparkWebApp {
 
+
+
     public static void main(String[] args) {
+        String vacio= "";
 
         port(getPort());
         staticFiles.location("/Paginainicio");
 
         get("/", (req, res) -> {
             res.redirect("/index.html");
-            return null;
+            return vacio;
     });
 
         path("/Calculator", ()->{
