@@ -1,4 +1,4 @@
-var celsiusafahrenheit = document.getElementByld('button-celsiusafahrenheit');
+var celsiusafahrenheit = document.getElementById('button-celsiusafahrenheit');
 celsiusafahrenheit.addEventListener('click', function(){
     var celda = document.getElementById('Celsius').value;
     console.log(celda);
