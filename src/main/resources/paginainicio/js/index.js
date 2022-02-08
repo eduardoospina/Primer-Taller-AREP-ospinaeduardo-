@@ -5,7 +5,7 @@ celsiusafahrenheit.addEventListener('click', function(){
     var linkapi1 = 'https://calc-api-be.herokuapp.com/Calculator'
     fetch('${linkapi1}/celsius/$Celsius}').then(res => {
         var obj = JSON.parse(res.data);
-        $("#fahrenheit").text("Fahrenheit : " + obj);
+        $("fahrenheit").text("Fahrenheit : " + obj);
         console.log(obj);
         })
 });
