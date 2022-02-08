@@ -2,19 +2,19 @@ package edu.escuelaing.arep;
 
 public class CelsiousAfarenheit {
 
-    private double farenheit;
-    private double celcious;
+    private double fahrenheit;
+    private double celsius;
 
-    public CelsiousAfarenheit( double Celcious){
-        celcious = Celcious;
-        farenheit = ((celcious * 9)/5) +32;
+    public CelsiousAfarenheit( double Celsius){
+        celsius = Celsius;
+        fahrenheit = ((celsius * 9)/5) +32;
     }
 
-    public double getCelcious() {
-        return celcious;
+    public double getCelsius() {
+        return celsius;
     }
 
-    public double getFarenheit() {
-        return farenheit;
+    public double getFahrenheit() {
+        return fahrenheit;
     }
 }
