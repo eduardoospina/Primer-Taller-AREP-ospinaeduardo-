@@ -6,8 +6,13 @@ import com.google.gson.*;
 public class SparkWebApp {
 
     public static void main(String[] args) {
+
         port(getPort());
-        get("/hello", (req, res) -> "Hello Heroku");
+        staticFiles.location("/Front/Paginainicio");
+        get("/", (req, res) -> {
+            res.redirect("/index.html");
+            return null;
+    });
 
         path("/Calculator", ()->{
             get("/celsius/:value",(req,res)->{
