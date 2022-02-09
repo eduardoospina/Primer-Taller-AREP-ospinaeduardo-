@@ -1,3 +1,4 @@
+//javascript que maneja la transformacion de celsius a fahrenheit.
 var celsiusafahrenheit = document.getElementById('button-celsiusafahrenheit');
 celsiusafahrenheit.addEventListener('click', function(){
     var celda = document.getElementById('Celsius').value;
@@ -12,6 +13,7 @@ celsiusafahrenheit.addEventListener('click', function(){
             })
 });
 
+//javascript que maneja la transformacion de fahrenheit a celsius.
 var fahrenheitacelsius = document.getElementById('button-fahrenheitacelsius');
 fahrenheitacelsius.addEventListener('click', function(){
     var celdas = document.getElementById('fahrenheits').value;
