@@ -38,6 +38,10 @@ para esto se siguen los siguientes pasos:
 
 ![](https://i.postimg.cc/8zHQ5STd/Capture1.png)
 
+![](https://i.postimg.cc/VNky0VNx/Capture2.png)
+
+![](https://i.postimg.cc/fb2GcftJ/Capture3.png)
+
 
 
 
