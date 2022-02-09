@@ -9,10 +9,10 @@
 ### Introduccion.
 
 Para este laboratorio se requieren conocimientos de tres herramientas para su desarrollo, siendo estas :
-    - MVN
-    - GIT
-    - Heroku
-    - Spark
+    1) MVN
+    2) GIT
+    3) Heroku
+    4) Spark
 
 Al ya cumplir con estos requerimientos, el objetivo de este proyecto es el de implementar una calculadora
 capaz de convertir de grados Celsius a grados Fahrenheit. Implementando una API y una implementacion front-end
