@@ -20,7 +20,7 @@ celsiusafahrenheit.addEventListener('click', function(){
     fetch(`${linkapi1}/celsius/${celda}`).then(res => {
         return res.json();
         }).then( rta =>  {
-            var obj = JSON.parse(rta.fahrenheit);
+            var obj = JSON.parse(rta.celsius);
             $("#celsiusl").text("Celsius : " + obj);
             console.log(obj);
             })
