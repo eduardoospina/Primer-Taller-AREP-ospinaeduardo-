@@ -30,6 +30,12 @@ con la realicacion de estas pruebas unitarias.
 En esta seccion se daran intrucciones de como descargar y correr localmente la aplicacion y la API de conversion de tempraturascon el proposito 
 de correrlo en la maquina de cada uno:
 
+##### Requisitos:
+1)   [Java 8](https://www.java.com/download/ie_manual.jsp) 
+2)   [Maven](https://maven.apache.org/download.cgi) 
+3)   [Git](https://git-scm.com/downloads) 
+4)   IDE de java.
+
 ##### Despliegue local API
 
 para esto se siguen los siguientes pasos:
@@ -42,6 +48,15 @@ para esto se siguen los siguientes pasos:
 
 ![](https://i.postimg.cc/fb2GcftJ/Capture3.png)
 
+2) ingresamos al proyecto clonado y desde cmd hacer uso de mvn para clean y package. 
+
+```maven
+mvn clean package
+```
+
+!{](https://i.postimg.cc/1zRxN5BR/Capture4.png)
+
+3) 
 
 
 
