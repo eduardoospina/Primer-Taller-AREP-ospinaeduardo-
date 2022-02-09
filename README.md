@@ -16,13 +16,29 @@ Para este laboratorio se requieren conocimientos de tres herramientas para su de
 
 Al ya cumplir con estos requerimientos, el objetivo de este proyecto es el de implementar una calculadora
 capaz de convertir de grados Celsius a grados Fahrenheit. Implementando una API y una implementacion front-end
-en donde se explica la API y se imlementa una demostracion de la funcionalidad del API.
+en donde se explica la API y se implementa una demonstration de la funcionalidad del API.
 
-Al hacer uso de las la herramientas y unificar los concimientos pasados  se logra completar la implementacion deseada
-aprendioendo contanmente el mejor uso de las herraientas y aumentando los concimientos necesarios para el desarrollo del curso.
+Al hacer uso de las las herramientas y unificar los conocimientos pasados se logra completar la implementacion deseada
+aprendioendo contanmente el mejor uso de las herraientas y aumentando los conocimientos necesarios para el desarrollo del curso.
+
+Se implmentan pruebas unitarias para completar el desarrollo y comprobar que funciona de la mejor manera. Al no tener tanta experiencia 
+al crear pruebas unitaria coincurrentes que se conecten y simulen dentro de lo que construimos, se llegaron a encontrar varios problemas
+con la realicacion de estas pruebas unitarias.
+
+### Desplegando localmente.
+
+En esta seccion se daran intrucciones de como descargar y correr localmente la aplicacion y la API de conversion de tempraturascon el proposito 
+de correrlo en la maquina de cada uno:
+
+##### Despliegue local API
+
+para esto se siguen los siguientes pasos:
+
+1) clonar el repositorio, ya se a traves de cmd o de GIT: 
+
+![](https://i.postimg.cc/8zHQ5STd/Capture1.png)
 
 
-##### Desplegando localmente.
 
 
 ### Ejecutar Pruebas.
