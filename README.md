@@ -54,11 +54,26 @@ para esto se siguen los siguientes pasos:
 mvn clean package
 ```
 
-!{](https://i.postimg.cc/1zRxN5BR/Capture4.png)
+![](https://i.postimg.cc/1zRxN5BR/Capture4.png)
 
-3) 
+3) Ejecutamos el proyecto utilizando los comandos en el cmd o corremos directamente desde la ide.
 
+```maven
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.SparkWebApp"
+```
 
+![](https://i.postimg.cc/y8gjpqNh/Capture5.png)
+
+![](https://i.postimg.cc/0jjX0Z6q/Capture7.png)
+![](https://i.postimg.cc/3JDnrkm9/Capture8.png)
+
+4) abrirlo en el navegador utilizando localhost con la ruta del api /Calculator/celsius/valor oo /calculator/fahrenheit/valor: 
+
+![](https://i.postimg.cc/267NqLR5/Capture6.png)
+
+##### Despliegue local recurso webb
+
+1) seguir los paso anterior 
 
 ### Ejecutar Pruebas.
 
