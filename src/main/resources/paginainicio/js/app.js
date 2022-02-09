@@ -14,10 +14,10 @@ celsiusafahrenheit.addEventListener('click', function(){
 
 var fahrenheitacelsius = document.getElementById('button-fahrenheitacelsius');
 celsiusafahrenheit.addEventListener('click', function(){
-    var celda = document.getElementById('fahrenheits').value;
+    var celdas = document.getElementById('fahrenheits').value;
     console.log(celda);
     var linkapi1 = 'https://calc-api-be.herokuapp.com/Calculator'
-    fetch(`${linkapi1}/celsius/${celda}`).then(res => {
+    fetch(`${linkapi1}/celsius/${celdas}`).then(res => {
         return res.json();
         }).then( rta =>  {
             var obj = JSON.parse(rta.celsius);
