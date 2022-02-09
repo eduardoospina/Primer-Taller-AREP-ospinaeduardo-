@@ -117,9 +117,38 @@ lo unico que toca tener cuidado es con la rutas adicionales para llegar a el API
 
 ### Arquitectura implementada
 
+Se implemento la arquitectura Rest, ya que uno de los requerimientos para el desarrollo de este trabajo era implementar una API REST. lo que uno tiene
+que tener en cuenta principalmente para esta arquitectura es: 
+- la comunicacion sin estado dentro del proceso que cumple el API. 
+- tener recursos que se puedan representar de diferentes maneras. 
+- crear los vinculos necesarios para el funcionamiento de la API y la parte web.
+- el manejo de id, principalmente para el manejo de html y js.
+
+todo esto se hace para poder cumplir con la arquitectura y desarrollar de la mejor manera este producto. 
+
 ### Limitaciones
+
+En este momento, falta la parte de pruebas concurrentes, ya que la iplementacion que se encuentra actualmente no permite la funcionalidad correctmente. 
+A parte de esto cuenta lo unicos calculos que se pueden realizar son los de fahrenheit a celcius, no llega a tener en cunta otras temperaturas, por lo que faltaria 
+extenderlo para que se deslimite en ese caso. 
+
+una ultima limitacion que puede tener es la de que no tenga la capacidad para responder a varios request al mismo tiempo, ya que a causa del problema encontrado con 
+las pruebas concurrentes por lo que esta limitacion se mantiene. 
 
 ### Extender
 
+Este proyecto, en mi opinion, tiene un nivel medio de extensibilidad. Ya que como lo desarrolle no cuenta con herraientas que hrian su extensibilidad mas sencilla. esto causa
+que si se quieren agregar nuevos elementos toca necesariamente clases con las nuevas conversiones, por parte del SparkWeb si esta mas sencillo que si logra poder adicionar 
+los paths y los gets mucho mas facil adicioando esas nuevas funcionalidades que se agregaron. Para finalizar, para extender el demo web si se encuentra tambien en un punto medio
+por los mismo motivos mencionados. pero el programa llega a no contar con un acoplamiento muy elevado. 
+
+## **Construido con**
+-   HTML
+-   javascript
+-   java
+
+
 ### Licencia.
+
+Licencia.
 
