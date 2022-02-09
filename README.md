@@ -95,10 +95,17 @@ se puede lograr ingresando la url:
 
 **https://calc-api-be.herokuapp.com/**
 
+![](https://i.postimg.cc/JnThv26m/Capture11.png)
+
 lo unico que toca tener cuidado es con la rutas adicionales para llegar a el API: 
 
 - /Calculator/celsius/valor
 - /calculator/fahrenheit/valor
+
+![](https://i.postimg.cc/rpxFJCB3/Capture12.png)
+![](https://i.postimg.cc/3RZrMrJZ/Capture13.png)
+
+
 
 ### Tecnologias Implementadas.
 
