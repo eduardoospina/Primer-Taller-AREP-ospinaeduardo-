@@ -137,7 +137,7 @@ las pruebas concurrentes por lo que esta limitacion se mantiene.
 
 ### Extender
 
-Este proyecto, en mi opinion, tiene un nivel medio de extensibilidad. Ya que como lo desarrolle no cuenta con herraientas que hrian su extensibilidad mas sencilla. esto causa
+Este proyecto, en mi opinion, tiene un nivel medio de extensibilidad. Ya que como lo desarrolle no cuenta con herraientas que harian su extensibilidad mas sencilla. esto causa
 que si se quieren agregar nuevos elementos toca necesariamente clases con las nuevas conversiones, por parte del SparkWeb si esta mas sencillo que si logra poder adicionar 
 los paths y los gets mucho mas facil adicioando esas nuevas funcionalidades que se agregaron. Para finalizar, para extender el demo web si se encuentra tambien en un punto medio
 por los mismo motivos mencionados. pero el programa llega a no contar con un acoplamiento muy elevado. 
