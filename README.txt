@@ -1,12 +1,12 @@
-#AREP- ARQUITECTURAS EMPRESARIAL - Laboratorio 1.
+# AREP- ARQUITECTURAS EMPRESARIAL - Laboratorio 1.
 
-##AUTOR.
+## AUTOR.
 
 > Eduardo Ospina Mejia
 
-##INTRODUCCIÓN MVN-GIT Y HEROKU.
+## INTRODUCCIÓN MVN-GIT Y HEROKU.
 
-###Introduccion.
+### Introduccion.
 
 Para este laboratorio se requieren conocimientos de tres herramientas para su desarrollo, siendo estas :
     - MVN
@@ -22,14 +22,14 @@ Al hacer uso de las la herramientas y unificar los concimientos pasados  se logr
 aprendioendo contanmente el mejor uso de las herraientas y aumentando los concimientos necesarios para el desarrollo del curso.
 
 
-#####Desplegando localmente.
+##### Desplegando localmente.
 
 
-###Ejecutar Pruebas.
+### Ejecutar Pruebas.
 
-###Desplegando de forma remota.
+### Desplegando de forma remota.
 
-###Tecnologias Implementadas.
+### Tecnologias Implementadas.
 
 * [Heroku](https://heroku.com) - Plataforma de despliegue en la nube.
 
@@ -37,11 +37,11 @@ aprendioendo contanmente el mejor uso de las herraientas y aumentando los concim
 
 * [Spark](http://sparkjava.com) - Framework para desarrollo de aplicaciones web.
 
-###Arquitectura implementada
+### Arquitectura implementada
 
-###Limitaciones
+### Limitaciones
 
-###Extender
+### Extender
 
-###Licencia.
+### Licencia.
 
