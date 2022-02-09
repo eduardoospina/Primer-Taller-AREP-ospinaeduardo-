@@ -17,32 +17,57 @@
                 Por lo que sus aplicaciones son faciles de encontrar.
             </p>
 
+        <img src="img/S3.png">
+        <img src="img/S4.png">
+
         <h2> API Key </h2>
             <p>
                 El API tiene un identificador unico de modo como un API Key que pasa dentro del API como un parametro de
                 acceso dentro de un url. Este parametro funciona como un identificador unico con las conversiones de temperatura
                 en el API. que para este caso son 2 dependiendo de que conversion se desee hacer.
             </p>
-            <p>
-                https://calc-api-be.herokuapp.com/Calculator/celsius/32
-            </p>
+            <p> URL base </p>
+            <p> https://calc-api-be.herokuapp.com/Calculator/ </p>
             <p>
                 Para convertir de Celsius a Fahrenheit.
             </p>
             <p>
-                https://calc-api-be.herokuapp.com/Calculator/fahrenheit/320
+                https://calc-api-be.herokuapp.com/Calculator/celsius/32
             </p>
             <p>
                 Para convertir de Fahrenheit a Celsius.
             </p>
             <p>
+                https://calc-api-be.herokuapp.com/Calculator/fahrenheit/320
+            </p>
+            <p>
                 Todos los resultados se devuelven como JSON. regresando el valor convertido de una temperatura a la otra.
             </p>
+
+        <h2> API Response </h2>
+
+            <p> los datos retornan en un formato standar JSON el cual se logra reparse en cualquier lenguaje de programacion.
+                No tiene en cuenta si se pasa de fahrenheit a celsius o vice versa. la respuesta se encontrara en el formato
+                a continuacion.
+            </p>
+            <p>
+                Respuesta ejemplo:
+            </p>
+            <p>
+                {"fahrenheit":320.0,"celsius":160.0}
+            </p>
+            <p>
+                Al usar el formato le permite la facilidad de hacer uso de esta API por parte de HTTP.
+            </p>
+        <img src="img/S1.png">
+        <img src="img/S2.png">
+
+
     </div>
 
 
 
-<p>"Calcular de cambio de temperatura de Fahrenheit a Celsius y de Celsius a Fahrenheit, prueba de las funcionalidades."</p>
+<h2>"Calcular de cambio de temperatura de Fahrenheit a Celsius y de Celsius a Fahrenheit, prueba de las funcionalidades."</h2>
 
 <section>
     <p>"Tranformar de Celsius A Fahrenheit"</p>
