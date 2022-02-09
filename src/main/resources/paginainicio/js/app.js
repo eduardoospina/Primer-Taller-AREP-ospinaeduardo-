@@ -17,8 +17,8 @@ celsiusafahrenheit.addEventListener('click', function(){
     var celdas = document.getElementById('fahrenheits').value;
     console.log(celdas);
     var linkapi2 = 'https://calc-api-be.herokuapp.com/Calculator'
-    fetch(`${linkapi2}/fahrenheit/${celdas}`).then(res => {
-        return res.json();
+    fetch(`${linkapi2}/fahrenheit/${celdas}`).then(resp => {
+        return resp.json();
         }).then( rta =>  {
             var obj = JSON.parse(rta.celsius);
             $("#celsiusl").text("Celsius : " + obj);
