@@ -73,11 +73,32 @@ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.SparkWebApp"
 
 ##### Despliegue local recurso webb
 
-1) seguir los paso anterior 
+1) seguir los paso anteriores para correr el recurso de forma local: 
+
+![](https://i.postimg.cc/0jjX0Z6q/Capture7.png)
+![](https://i.postimg.cc/3JDnrkm9/Capture8.png)
+
+2) abrilo en el navegador sin ninguna ruta en especifico: 
+
+![](https://i.postimg.cc/jdm86qhQ/Capture9.png)
 
 ### Ejecutar Pruebas.
 
+Para ejecutar pruebas unitarias se corre desde cmd: 
+
+![](https://i.postimg.cc/tCxcMVJm/Capture10.png)
+
 ### Desplegando de forma remota.
+
+Ya se encuentra desplguegado de forma remota, utilizando el recurso de heroku se esta cumpliendo esta funcion por lo que paracorrer el API o el recurso web 
+se puede lograr ingresando la url: 
+
+**https://calc-api-be.herokuapp.com/**
+
+lo unico que toca tener cuidado es con la rutas adicionales para llegar a el API: 
+
+- /Calculator/celsius/valor
+- /calculator/fahrenheit/valor
 
 ### Tecnologias Implementadas.
 
