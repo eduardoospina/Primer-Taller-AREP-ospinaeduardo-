@@ -8,6 +8,7 @@ import com.google.gson.*;
  * Clase que maneja el SparkWeb, maneja todos las necesidades para el manejo correcto.
  * @param void
  * @return void
+ * @author Eduardo Ospina
  */
 public class SparkWebApp {
 
