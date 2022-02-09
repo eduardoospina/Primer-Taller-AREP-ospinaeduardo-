@@ -18,4 +18,6 @@ public class FarenheitAcelcious {
     public double getFahrenheit() {
         return fahrenheit;
     }
-}
+
+
+    }
