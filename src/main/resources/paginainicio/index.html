@@ -2,30 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TemperatureConverter</title>
+    <title>Conversor de temperaturas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<p>
+    <div>
+        <h2>Conversor de temperatura API, conversor de Fahrenheit a Celsius y viceversa.</h2>
+            <p>
+                En esta pagina, se encontrara la estructura del API para la conversion de temperaturas.
+                los posibles errores y ejemplo sde codigo para el mejor entendimiento del funcionamineto de
+                la calculadora de las temperaturas. Manejando unicamente de Celsius y Fahrenheit. Las funcionalidades
+                de esta herramienta se encuentran dentro de las medidas de temperatura mas comunes usadas en el mundo.
+                Por lo que sus aplicaciones son faciles de encontrar.
+            </p>
 
-</p>
+        <h2> API Key </h2>
+            <p>
+                El API tiene un identificador unico de modo como un API Key que pasa dentro del API como un parametro de
+                acceso dentro de un url. Este parametro funciona como un identificador unico con las conversiones de temperatura
+                en el API. que para este caso son 2 dependiendo de que conversion se desee hacer.
+            </p>
+            <p>
+                https://calc-api-be.herokuapp.com/Calculator/celsius/32
+                Para convertir de Celsius a Fahrenheit.
+
+                https://calc-api-be.herokuapp.com/Calculator/fahrenheit/320
+                Para convertir de Fahrenheit a Celsius.
+            </p>
+    </div>
 
 
 
-
-
-<p>"CALCULADORA CONVERSORA DE TEMPERATURAS"</p>
+<p>"Calcular de cambio de temperatura de Fahrenheit a Celsius y de Celsius a Fahrenheit, prueba de las funcionalidades."</p>
 
 <section>
-    <p>"CELSIUS A FAHRENHEIT"</p>
+    <p>"Tranformar de Celsius A Fahrenheit"</p>
     <input type="text" class="form-control" placeholder="Celsius" id="Celsius" style="margin-bottom: 10px">
     <input id="button-celsiusafahrenheit" type="submit" value="calculate" class="btns" >
     <h4  id="fahrenheit"></h4>
 </section>
 
 <section>
-    <p>"FAHRENHEIT A CELSIUS"</p>
+    <p>"Tranformar de Fahrenheit A Celsius"</p>
     <input type="text" class="form-control" placeholder="Fahrenheit" id="fahrenheits" style="margin-bottom: 10px">
     <input id="button-fahrenheitacelsius" type="submit" value="calculate" class="btns" >
     <h4  id="celsiusl"></h4>
