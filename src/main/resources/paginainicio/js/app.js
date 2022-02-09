@@ -13,7 +13,7 @@ celsiusafahrenheit.addEventListener('click', function(){
 });
 
 var fahrenheitacelsius = document.getElementById('button-fahrenheitacelsius');
-celsiusafahrenheit.addEventListener('click', function(){
+celsiusafahrenheit.addEventListener('click2', function(){
     var celdas = document.getElementById('fahrenheits').value;
     console.log(celdas);
     var linkapi2 = 'https://calc-api-be.herokuapp.com/Calculator'
