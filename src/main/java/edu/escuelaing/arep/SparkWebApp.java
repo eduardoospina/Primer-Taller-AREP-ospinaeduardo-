@@ -6,8 +6,6 @@ import com.google.gson.*;
 
 /**
  * Clase que maneja el SparkWeb, maneja todos las necesidades para el manejo correcto.
- * @param void
- * @return void
  * @author Eduardo Ospina
  */
 public class SparkWebApp {
@@ -15,8 +13,7 @@ public class SparkWebApp {
 
     /**
      * Clase de metodo de SparkWebApp que maneja el SparkWeb, es el responsable de el manejo de las peticiones.
-     * @param array de strings
-     * @return void
+     * @param args como un Array de strings
      */
     public static void main(String[] args) {
 
@@ -42,7 +39,7 @@ public class SparkWebApp {
 
     /**
      * metodo que maneja el get de los celsius para uso en el front end, manejandolo del formato JSON estandart.
-     * @param valor deseado a encontrar
+     * @param value deseado a encontrar
      * @return respuesta en formato JSON
      */
     private static Object getCelsius(double value){
@@ -51,7 +48,7 @@ public class SparkWebApp {
 
     /**
      * metodo que maneja el get de los fahrenheit para uso en el front end, manejandolo del formato JSON estandart.
-     * @param valor deseado a encontrar
+     * @param value deseado a encontrar
      * @return respuesta en formato JSON
      */
     private static Object getFahrenheit(double value){
@@ -60,7 +57,6 @@ public class SparkWebApp {
 
     /**
      * metodo que obtiene el puerto y retorna el deseado para su utilizacion.
-     * @param void.
      * @return int del puerto.
      */
     static int getPort() {

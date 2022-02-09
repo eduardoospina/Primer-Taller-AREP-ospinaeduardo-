@@ -3,8 +3,7 @@ package edu.escuelaing.arep;
 
 /**
  * clase responsable de la conversion de fahrenheit a celsius. cuenta con todos lo smetodos necesarios para realizar la operacion.
- * @param  void
- * @return void
+ * @author Eduardo Ospina
  */
 public class FarenheitAcelcious {
 
@@ -13,8 +12,7 @@ public class FarenheitAcelcious {
 
     /**
      * metodo contructor de la clase, en donde se ingresa el valor en fahrenheit que se quiere transforman, y realiza la operacion necesaria.
-     * @param valor en formato doube de la temperatura en fahrenheit
-     * @return void
+     * @param Fahrenheit em formato oduble
      */
     public FarenheitAcelcious( double Fahrenheit){
         fahrenheit = Fahrenheit;
@@ -24,8 +22,7 @@ public class FarenheitAcelcious {
 
     /**
      * metodo para retornar el valor en celsius despues de que el contrustor calculo los valores necesarios.
-     * @param void
-     * @return valor en formato double de celsius.
+     *@return valor en formato double de celsius.
      */
     public double getCelsius() {
         return celsius;
@@ -33,7 +30,6 @@ public class FarenheitAcelcious {
 
     /**
      * metodo para retornar el valor en farenheit despues de que el contrustor calculo los valores necesarios.
-     * @param void
      * @return valor en formato double de fahrenheit.
      */
     public double getFahrenheit() {

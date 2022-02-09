@@ -1,0 +1,73 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/eduardo.ospina.LABINFO/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/com/sparkjava/spark-core/2.9.3/spark-core-2.9.3.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-server/9.4.31.v20200723/jetty-server-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-http/9.4.31.v20200723/jetty-http-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-util/9.4.31.v20200723/jetty-util-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-io/9.4.31.v20200723/jetty-io-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.31.v20200723/jetty-webapp-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.31.v20200723/jetty-xml-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.31.v20200723/jetty-servlet-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-security/9.4.31.v20200723/jetty-security-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.31.v20200723/websocket-server-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.31.v20200723/websocket-common-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.31.v20200723/websocket-client-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/jetty-client/9.4.31.v20200723/jetty-client-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.31.v20200723/websocket-servlet-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.31.v20200723/websocket-api-9.4.31.v20200723.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/slf4j/slf4j-api/1.7.35/slf4j-api-1.7.35.jar;C:/Users/eduardo.ospina.LABINFO/.m2/repository/org/slf4j/slf4j-simple/1.7.35/slf4j-simple-1.7.35.jar'
+-encoding
+'Cp1252'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/eduardo.ospina.LABINFO/Documents/arep/Primer-Taller-AREP-ospinaeduardo-/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/eduardo.ospina.LABINFO/Documents/arep/Primer-Taller-AREP-ospinaeduardo-/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'SparkWebApp 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/eduardo.ospina.LABINFO/Documents/arep/Primer-Taller-AREP-ospinaeduardo-/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'SparkWebApp 1.0-SNAPSHOT API'
+edu.escuelaing.arep
+'C:/Users/eduardo.ospina.LABINFO/Documents/arep/Primer-Taller-AREP-ospinaeduardo-/src/main/java/edu/escuelaing/arep/CelsiousAfarenheit.java'
+'C:/Users/eduardo.ospina.LABINFO/Documents/arep/Primer-Taller-AREP-ospinaeduardo-/src/main/java/edu/escuelaing/arep/FarenheitAcelcious.java'
+'C:/Users/eduardo.ospina.LABINFO/Documents/arep/Primer-Taller-AREP-ospinaeduardo-/src/main/java/edu/escuelaing/arep/SparkWebApp.java'
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar = 1644410265500
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\com\sparkjava\spark-core\2.9.3\spark-core-2.9.3.jar = 1644410265678
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-server\9.4.31.v20200723\jetty-server-9.4.31.v20200723.jar = 1644410266522
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar = 1644410265678
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-http\9.4.31.v20200723\jetty-http-9.4.31.v20200723.jar = 1644410267325
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-util\9.4.31.v20200723\jetty-util-9.4.31.v20200723.jar = 1644410267225
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-io\9.4.31.v20200723\jetty-io-9.4.31.v20200723.jar = 1644410266897
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.31.v20200723\jetty-webapp-9.4.31.v20200723.jar = 1644410266225
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.31.v20200723\jetty-xml-9.4.31.v20200723.jar = 1644410266912
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.31.v20200723\jetty-servlet-9.4.31.v20200723.jar = 1644410267209
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-security\9.4.31.v20200723\jetty-security-9.4.31.v20200723.jar = 1644410266366
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.31.v20200723\websocket-server-9.4.31.v20200723.jar = 1644410266506
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.31.v20200723\websocket-common-9.4.31.v20200723.jar = 1644410266600
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.31.v20200723\websocket-client-9.4.31.v20200723.jar = 1644410266740
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\jetty-client\9.4.31.v20200723\jetty-client-9.4.31.v20200723.jar = 1644410266787
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.31.v20200723\websocket-servlet-9.4.31.v20200723.jar = 1644410267377
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.31.v20200723\websocket-api-9.4.31.v20200723.jar = 1644410267361
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\slf4j\slf4j-api\1.7.35\slf4j-api-1.7.35.jar = 1644410289416
+C:\Users\eduardo.ospina.LABINFO\.m2\repository\org\slf4j\slf4j-simple\1.7.35\slf4j-simple-1.7.35.jar = 1644410289288
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\src\main\java = 1644409685404
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\allclasses-index.html = 1644416456840
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\allclasses.html = 1644416456856
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\allpackages-index.html = 1644416456840
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\constant-values.html = 1644416456778
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\deprecated-list.html = 1644416456856
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\element-list = 1644416456746
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\help-doc.html = 1644416456871
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\index-all.html = 1644416456840
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\index.html = 1644416456856
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\javadoc.bat = 1644416437339
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\member-search-index.js = 1644416456824
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\member-search-index.zip = 1644416456840
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\overview-tree.html = 1644416456809
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\package-search-index.js = 1644416456824
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\package-search-index.zip = 1644416456824
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\script.js = 1644416456871
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\search.js = 1644416456871
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\stylesheet.css = 1644416456871
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\type-search-index.js = 1644416456824
+C:\Users\eduardo.ospina.LABINFO\Documents\arep\Primer-Taller-AREP-ospinaeduardo-\target\site\apidocs\type-search-index.zip = 1644416456824
