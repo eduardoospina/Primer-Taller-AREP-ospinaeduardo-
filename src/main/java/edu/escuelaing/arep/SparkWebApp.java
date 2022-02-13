@@ -2,6 +2,7 @@ package edu.escuelaing.arep;
 
 import static spark.Spark.*;
 import com.google.gson.*;
+import jdk.internal.misc.FileSystemOption;
 
 
 /**
@@ -27,11 +28,13 @@ public class SparkWebApp {
 
         path("/Calculator", ()->{
             get("/celsius/:value",(req,res)->{
-                return getCelsius(Double.valueOf(req.params(":value")));
+                System.out.println(getCelsius(Double.parseDouble(req.params(":value"))));
+                return getCelsius(Double.parseDouble(req.params(":value")));
             });
 
             get("/fahrenheit/:value",(req,res)->{
-               return getFahrenheit(Double.valueOf(req.params(":value")));
+               System.out.println(getFahrenheit(Double.parseDouble(req.params(":value"))));
+               return getFahrenheit(Double.parseDouble(req.params(":value")));
             });
         });
 
